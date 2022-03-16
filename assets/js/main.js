@@ -37,7 +37,11 @@ const finalizaJogo = (empate) => {
     } else {
         texto.innerText = turnoBolinha ? "O VENCEU!" : "X VENCEU!"
     }
-
+    for (const celulas of elementosCelulas) {
+        grid.classList.remove('bolinha')
+        grid.classList.remove('x')
+        celulas.removeEventListener("click", pegaClick)
+    }
     mensagem.classList.add('mostra-mensagem')
 }
 

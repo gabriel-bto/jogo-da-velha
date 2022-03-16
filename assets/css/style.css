@@ -1,10 +1,10 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
-}
-
-*, *::after, *::before {
-    box-sizing: border-box;
 }
 
 :root{
@@ -14,7 +14,7 @@
 
 .grid {
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -131,9 +131,9 @@
 
 .mensagem-button {
     display: inline-block;
-    font-size: 2.5rem;
+    font-size: 3rem;
     background-color: rgb(20, 189, 172);
-    padding: 10px 15px;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
     border: none;
