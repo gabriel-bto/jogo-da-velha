@@ -121,7 +121,7 @@
 }
 
 .mensagem {
-    display: block;
+    display: none;
     text-align: center;
 }
 
@@ -144,4 +144,8 @@
 .mensagem-button:hover {
     color: rgb(20, 189, 172);
     background-color: rgba(0, 0, 0, 0.7)
+}
+
+.mostra-mensagem {
+    display: block;
 }
